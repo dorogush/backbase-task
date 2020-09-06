@@ -1,0 +1,11 @@
+logging:
+  config: classpath:log4j2-dev.yaml
+  level:
+    ROOT: info
+    com.adorogush.backbasetask: debug
+#    org.springframework: debug
+
+spring:
+  main:
+    banner-mode: console
+  banner.location: 'classpath:/application.banner'

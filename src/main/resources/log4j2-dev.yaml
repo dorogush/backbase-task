@@ -1,0 +1,13 @@
+configuration:
+  status: warn
+  appenders:
+    console:
+      name: stdout
+      patternLayout:
+        pattern: "%style{%d{ISO8601}}{black} %highlight{%-5level }[%style{%t}{bright,blue}] %style{%C{1.}}{bright,yellow}: %msg%n%throwable"
+
+  loggers:
+    root:
+      level: info
+      appenderRef:
+        ref: stdout

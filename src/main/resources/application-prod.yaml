@@ -1,0 +1,5 @@
+logging:
+  config: classpath:log4j2-prod.yaml
+  level.ROOT: info
+
+spring.main.banner-mode: "off"

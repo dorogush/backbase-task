@@ -1,0 +1,17 @@
+configuration:
+  status: warn
+  appenders:
+    console:
+      name: stdout
+      jsonLayout:
+        charset: UTF-8
+        complete: false
+        compact: true
+        eventEol: true
+        includeTimeMillis: true
+
+  loggers:
+    root:
+      level: info
+      appenderRef:
+        ref: stdout

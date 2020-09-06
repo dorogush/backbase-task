@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: 'backbase-task'
+  profiles:
+    active: prod
+
+numberOfPits: 6
+numberOfStones: 6
+
+
