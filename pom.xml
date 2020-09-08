@@ -121,7 +121,7 @@
               <style>GOOGLE</style>
             </googleJavaFormat>
             <licenseHeader>
-              <file>${basedir}/license-header-java</file>
+              <file>${basedir}/header-java</file>
             </licenseHeader>
           </java>
         </configuration>
